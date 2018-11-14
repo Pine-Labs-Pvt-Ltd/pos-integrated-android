@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/tv_printdumptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:text="Print Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/ev_printdump"
+        android:layout_width="600dip"
+        android:layout_height="300dip"
+        android:layout_below="@+id/tv_printdumptitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Write Text Here"
+        android:inputType="textMultiLine" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="10dip"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ev_printdump"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@+id/ev_printdump"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_printdump_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ev_printdump"
+        android:layout_below="@+id/ev_printdump"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dialog_ok_button" />
+    
+    <Button
+        android:id="@+id/btn_printdump_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ev_printdump"
+        android:layout_below="@+id/ev_printdump"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dialog_cancel_button" />
+    
+    
+    <TextView
+        android:id="@+id/tv_blank_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_printdumptitle"
+        android:layout_below="@+id/btn_printdump_ok"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+
+</RelativeLayout>

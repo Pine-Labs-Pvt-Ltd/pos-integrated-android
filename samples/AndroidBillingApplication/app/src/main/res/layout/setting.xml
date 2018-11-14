@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_width="300dip">
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="IP/Port Settings"
+            android:id="@+id/untextView"
+            android:layout_marginTop="20dip"
+            android:layout_alignLeft="@+id/tv_ipaddress"
+            android:layout_marginLeft="58dip"
+            android:textStyle="bold|italic"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_width="wrap_content"></TextView>
+
+    <TextView
+        android:text="IP Address"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ipaddress"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/untextView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="30dip"></TextView>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:inputType="phone"
+        android:digits="0123456789."
+        android:id="@+id/ev_ipaddress"
+        android:layout_width="150dip"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/tv_ipaddress"
+        android:layout_toRightOf="@+id/tv_ipaddress"></EditText>
+ 
+    <TextView
+        android:text="IP Port"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ip_port"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tv_ipaddress"
+        android:layout_alignLeft="@+id/tv_ipaddress"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"></TextView>
+    <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/ev_ip_port"
+        android:layout_width="wrap_content"
+        android:maxLength="8"
+        android:inputType="number"
+        android:layout_alignTop="@+id/tv_ip_port"
+        android:layout_alignLeft="@+id/ev_ipaddress"
+        android:layout_alignRight="@+id/ev_ipaddress">
+    </EditText>
+        <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_settingscancel"
+        android:background="@drawable/dialog_cancel_button"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_settingsok"
+        android:layout_alignBottom="@+id/btn_settingsok"
+        android:layout_marginRight="55dip"
+        android:layout_alignRight="@+id/ev_ip_port"></Button>
+
+    <TextView
+        android:text=" "
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tv_gcd_blankline"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/btn_settingsok"
+        android:layout_alignLeft="@+id/tv_ipaddress"
+        android:layout_marginTop="20dp"></TextView>
+
+    <Button
+        android:id="@+id/btn_settingsok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ev_ip_port"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/tv_gcd_blankline"
+        android:background="@drawable/dialog_ok_button" />
+
+</RelativeLayout>
+</LinearLayout>

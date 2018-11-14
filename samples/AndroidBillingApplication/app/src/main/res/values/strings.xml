@@ -1,0 +1,36 @@
+<resources>
+    <string name="hello">Hello World, TestBillingAppActivity!</string>
+    <string name="app_name">Test Billing App</string>
+    <string-array name="transaction_type">
+        <item>Sale</item>
+        <item>Refund</item>
+        <item>Adjust</item>
+        <item>Void</item>
+        <item>Pre Auth</item>
+        <item>Sale Complete</item>
+        <item>Tip Adjust</item>
+        <item>GV Activate</item>
+        <item>GV Redeem</item>
+        <item>GV Balance</item>
+    </string-array>
+
+    <string-array name="function_codes">
+        <item>----Select a function type----</item>
+        <item>Transaction</item>
+        <item>Setting</item>
+        <item>Reset</item>
+        <item>Set Connection</item>
+        <item>Run PVM</item>
+        <item>Print Dump</item>
+        <item>Activate</item>
+        <item>Initialize</item>
+        <item>Settle Batch</item>
+        <item>Get Status</item>
+        <item>Change Password</item>
+        <item>Login</item>
+        <item>Add User</item>
+        <item>Remove User</item>
+        <item>Logout</item>
+        <item>Reset PIN</item>
+    </string-array>
+</resources>
