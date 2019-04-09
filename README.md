@@ -8,7 +8,7 @@ Plutus Smart API Integration Document (docs\Plutus Smart API Integration Documen
 
 Billing App Sample Codes (samples\Billing App Sample Code.zip)
 
-Billing App Sample (samples\Billing App Sample Code.zip)
+Sample Billing App (samples\SampleBillingApp.apk)
 
 # Sdks / Simulator
 
