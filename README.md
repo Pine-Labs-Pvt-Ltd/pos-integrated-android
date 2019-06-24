@@ -21,7 +21,3 @@ Simulator App Test Cases (sdks\Simulator_App_Test_Cases.xlsx)
 
 -- This contains list of test cases for mock different response codes.
 
-
-Certification App (sdks\Home_Certification_Release_190611.apk)
-
--- This app can be installed on Pine Labs Android POS device and used to do certification testing.
