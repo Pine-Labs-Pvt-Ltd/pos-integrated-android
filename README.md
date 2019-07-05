@@ -6,7 +6,7 @@ Plutus Smart API Integration Document (docs\Plutus Smart API Integration Documen
 
 # Samples
 
-Sample Billing App (samples\SampleBillingApp.apk) - Login Details: "pinelabs" / "pine@123"
+Sample Billing App (samples\BillingSample.apk) - Login Details: "pinelabs" / "pine@123"
 
 Billing Sample Source Code (samples\BillingSampleApp.zip)
 
