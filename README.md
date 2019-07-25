@@ -13,7 +13,7 @@ Billing Sample Source Code (samples\BillingSampleApp.zip)
 
 # Sdks / Simulator
 
-Simulator App (sdks\Simulator_App_190407.apk)
+Simulator App (sdks\Simulator_App_190717.apk) - Login Details: "1234" / "1234"
 
 -- This app can be installed on developer's Android Device and used during developement to get mock responses and implement end to end functionalities.
 
