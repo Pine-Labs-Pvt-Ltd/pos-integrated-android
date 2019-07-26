@@ -19,8 +19,4 @@ Simulator App (sdks\Simulator_App_190717.apk) - Login Details: "1234" / "1234"
 
 Simulator App Test Cases (sdks\Simulator_App_Test_Cases.xlsx)
 
--- This contains list of test cases for mock different response codes.
-
-Certification App (sdks\Certification_App.apk)
-
--- This app can be installed on developer's Android Device and used for certification testing through Developer Protal.
+-- This contains list of test cases to mock different response codes.
