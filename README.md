@@ -6,7 +6,13 @@ Plutus Smart API Integration Document (docs\Plutus Smart API Integration Documen
 
 # Samples
 
-Multiplex Booking App
+Cab Booking App
+
+  -Cab Booking App (samples\Cab-Booking\CabBooking.apk)
+  
+  -Cab Booking Source Code (samples\Cab-Booking\CabBookingApp.zip)
+  
+  Multiplex Booking App
 
   -Multiplex Booking App (samples\Multiplex-Booking\MultiplexBooking.apk)
   
